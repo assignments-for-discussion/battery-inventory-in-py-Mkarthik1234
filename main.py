@@ -8,7 +8,7 @@ def count_batteries_by_health(present_capacities):
       if SoH >= 80:
         healthy+=1
       elif SoH < 80 and SoH >= 62:
-        exchage+=1
+        exchange+=1
       else:
         failed+=1
   
